@@ -354,6 +354,7 @@ nav  input:checked ~ .nav__menu{
     padding: 0 10px ;
     font-size: 0.5em;
     text-wrap: pretty;
+    
 }
 .quienessomos__img--container{
     display: none;
@@ -606,14 +607,26 @@ aside{
     padding: 20px 0;
 }
 
-aside::after{
+/*aside::after{
     content: '';
     position: absolute;
     top:0;
     right:2px;
+    width: 2px;
     height: 106%;
     background:var(--main-color);
     border-radius: 20% 20% 20% 20%;
+}*/
+
+aside::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 3px ;
+    width: 1px;
+    height: 100%;
+    background:var(--main-color);
+    
 }
 
 .aside__container--card ,.aside__container--card2 {
