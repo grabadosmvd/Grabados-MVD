@@ -656,6 +656,7 @@ aside::after{
     object-fit: cover;
     border-radius: 1.8%;
     filter: grayscale(50%);
+    width: 150%;
 }
 
 .aside__container--card--img--logo{
